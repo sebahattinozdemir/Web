@@ -1,0 +1,207 @@
+#container{
+    
+    width: 1050px;
+    margin: 0 auto;
+    height: 100px;
+    
+}
+
+#header{
+    
+    padding-top: 10px;
+    
+}
+#brand{
+    
+    float: left;
+    padding-left:5px;
+    
+}
+
+
+
+h1 a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 100;
+    color: #B314DB;
+    float: right;
+    
+    
+}
+
+#searchBox{
+    float: right;
+    height: 50px;
+    width: 300px;
+    
+    background: linear-gradient(#E4F289, #B7E953);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text{
+    
+    float:left;
+    width: auto;
+    height: 25px;
+     background: white url(Logomakr_4Z4wL4.png) right center no-repeat;
+}
+
+.search{
+    float:right;
+    width: 100px;
+    height: 30px;
+    background: #A751D6;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    
+    height: 80px;
+    border: 1px solid white;
+    background: linear-gradient(#F8F594,#D5D533);
+}
+
+#menu ul{    
+    list-style: none;
+    padding-left: 75px;
+    
+}
+#menu ul li{
+    float: left;
+    padding:0 20px;
+    padding-top: 15px;
+    height: 20px;
+    border-right:1px solid #5d12e7;
+   line-height:10px
+}
+
+#menu ul li:last-child{
+    border-right:none;  /*sondaki çizgiyi kaldırır*/
+}
+
+#menu ul li a{
+    
+    text-decoration: none;
+    color:#5D12E7;7
+    font-weight: bold;
+    font-size:15px;
+    font-family: sans-serif;
+    transition:font-size 0.3s ease;
+    -webkit-transition:font-size 0.3s ease;
+    -moz-transition:font-size 0.3s ease;
+    -o-transition:font-size 0.3s ease;
+    -ms-transition:font-size 0.3s ease;
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size:20px;
+    color:#B314DB;
+    
+}
+
+#introduction{
+    
+    background: linear-gradient(#E5F2BB,#B7E952);
+    margin:16px 0px;
+    padding: 30px
+    
+}
+
+#introduction h3{
+    
+    font-size:30px;
+    font-weight: normal;
+    color:#316901;
+    padding:0px 30px;
+}
+#introduction p{
+    font-size:20px;
+    color:#628F19;
+    padding:0px 30px;
+    text-align: justify;
+}
+
+#side1{
+    float:left;
+    border:1px solid #D5D533;
+    border-radius: 25px;
+    width:450px;
+    height: 430px;
+}
+
+#side1 h4 {
+    
+    font-size:30px;
+    color:#B314DB;
+    padding-left: 40px;
+}
+#side1 ul li {
+    list-style: url(Logomakr_1WgiJw.png);
+    font-size:20px;
+    color:#B314DB;
+}
+#side1 a{
+    
+    text-decoration: none;
+    transition:font-size 0.3s ease;
+    -webkit-transition:font-size 0.3s ease;
+    -moz-transition:font-size 0.3s ease;
+    -o-transition:font-size 0.3s ease;
+    -ms-transition:font-size 0.3s ease;
+}
+#side1 a:hover{
+    
+    font-size: 25px;
+}
+
+#side2{
+    float:right;
+    border:1px solid #D5D533;
+    width:475px;
+    height: 430px;
+    border-radius:25px;
+}
+#side2 h4{
+    font-size: 30px;
+    color:#B314DB;
+    padding-left:45px;
+    
+}
+#side2 ul li {
+
+    list-style: url(Logomakr_2mOa1g.png);
+   
+    color:#B314DB;
+    padding:10px;
+   
+    
+}
+#side2 ul li a{
+     text-decoration: none;
+    font-size:20px;
+    transition: font-size 0.3s ease;
+    -webkit-transition:font-size 0.3s ease;
+    -moz-transition:font-size 0.3s ease;
+    -o-transition:font-size 0.3s ease;
+    -ms-transition:font-size 0.3s ease;
+}
+#side2 ul li a:hover{
+    font-size: 25px;
+}
+
+
+.footer{
+    height: 40px;
+    background: linear-gradient(#F8F594,#D5D533);
+    margin-top: 10px;
+    padding:15px
+}
+
